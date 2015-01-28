@@ -41,9 +41,9 @@ background: #B6B6B6;
 
 #signin-button {
     background-color: white;
-    border: 1px solid #212121;
-    font-family: "Sigward";
-    color: #212121;
+    border: 1px solid #009688;
+    font-family: 'Oswald', sans-serif;
+    color: #009688;
     margin-top: 22px;
 }
 
@@ -56,17 +56,17 @@ background: #B6B6B6;
 }
 
 #hero-button1 {
-     background-color: white;
-    border: 1px solid #212121;
-    font-family: "Sigward";
-    color: #212121;
+    background-color: #B2DFDB;
+    border: 1px solid #009688;
+    font-family: 'Oswald', sans-serif;
+    color: #009688;
 }
 
 #hero-button2 {
-     background-color: white;
-    border: 1px solid #212121;
-    font-family: "Sigward";
-    color: #212121;
+    background-color: #FFFFFF;
+    border: 1px solid #009688;
+    font-family: 'Oswald', sans-serif;
+    color: #009688;
 }
 
 
@@ -83,23 +83,27 @@ background: #B6B6B6;
     background-repeat: none;
 }
 
-.hero-title { 
+
+h2.hero-title { 
   position: absolute; 
   top: 200px; 
   left: 0; 
   width: 100%; 
   text-align: center;
-  color: #ffffff;
+  color: #00796B;
   font-weight: bold;
+  font-size: 48px;
 }
 
-.hero-text { 
+h3.hero-text { 
+  margin: 0;
   position: absolute; 
   top: 270px; 
   left: 0; 
   width: 100%; 
   text-align: center;
-  color: #ffffff;
+  color: #00796B;
+  font-weight: bold;
 }
 
 
@@ -116,9 +120,9 @@ background: #B6B6B6;
 
 .section-title {
     text-align: center;
-    font-family: "Sigward";
-    font-size: 48px;
-    color: #212121;
+    font-family: 'Oswald', sans-serif;
+    font-size: 38px;
+    color: #009688;
     padding-top: 10px;
 }
 
@@ -129,10 +133,13 @@ background: #B6B6B6;
 }
 
 /* team section */
+/*.github {
+    text-align: center;
+}*/
 
 .team-section {
     padding-top: 40px;
-    background-color: #B6B6B6;
+    background-color: #d3d3d3;
     height: 600px;
 }
 
@@ -159,5 +166,5 @@ background: #B6B6B6;
 
 .footer-wrap {
     height: 300px;
-    background-color: #020001;
+    background-color: #B2DFDB;
 }
