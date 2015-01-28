@@ -13,6 +13,12 @@
   height: 100px;
 }
 
+.logo-section {
+    background: #FFFFFF;
+    height: 89px;
+}
+
+
 .hero {
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -21,21 +27,15 @@ background-size: cover;
 display: table;
 width: 100%;
 }
+
 .hero .container2 {
 display: table-cell;
 text-align: center;
 vertical-align: middle;
-height: 500px;
-/*background: #303F9F;*/
+height: 630px;
+background: #B6B6B6;
 }
 
-.logo-words {
-    font-family: "Sigward";
-    font-size: 40px;
-    padding-left: 20px;
-    padding-top: 10px;
-    color: #212121;
-}
 
 .nav-buttons {
     float: right;
@@ -47,23 +47,17 @@ height: 500px;
     border: 1px solid #212121;
     font-family: "Sigward";
     color: #212121;
+    margin-top: 22px;
 }
 
-.team {
-    font-family: "Sigward";
-    font-size: 40px;
-    padding-right: 20px;
-    padding-top: 10px;
-    color: #212121;
-}
-
-
-.hero-name {
+h1.hero-name {
     font-family: "Sigward";
     font-size: 100px;
     font-weight: bold;
     color: white;
     margin: 0;
+    color: #00796B;
+    margin-top: 80px;
 }
 
 .hero-image {
@@ -82,8 +76,8 @@ height: 500px;
 
 /* learn more section */
 
+
 .example-image {
-    margin-left: 280px;
     padding-top: 40px;
     height: 447px;
     width: 723px;
@@ -94,23 +88,45 @@ height: 500px;
     font-family: "Sigward";
     font-size: 48px;
     color: #212121;
+    padding-top: 10px;
 }
 
-/* founders section */
+/* about section */
 
-.founder-section {
+.about-section {
     padding-top: 40px;
 }
 
+/* team section */
+
+.team-section {
+    padding-top: 40px;
+    background-color: #B6B6B6;
+    height: 600px;
+}
+
+.team-pad {
+    margin-left: 120px;
+    padding-top: 40px;
+}
+
+.about-text {
+ text-align: center;
+ padding-top: 10px;
+}
+
+.teampic {
+
+}
 /* footer */
 
 .copyright {
-    padding-top: 60px;
+    text-align: center;
+    margin-top: 150px;
     color: #4d505b;
-    font-family: 'Hammersmith One', sans-serif;
 }
 
 .footer-wrap {
-    height: 100px;
+    height: 300px;
     background-color: #020001;
 }
