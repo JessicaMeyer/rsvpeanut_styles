@@ -12,26 +12,8 @@
 
 .logo-section {
     background: #FFFFFF;
-    height: 78px;
+    height: 90px;
 }
-
-
-/*.hero {
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-display: table;
-width: 100%;
-}*/
-
-/*.hero .container2 {
-display: table-cell;
-text-align: center;
-vertical-align: middle;
-height: 630px;
-background: #B6B6B6;
-}*/
 
 
 .nav-buttons {
@@ -42,9 +24,9 @@ background: #B6B6B6;
 
 #signin-button {
     background-color: white;
-    border: 1px solid #009688;
+    border: 1px solid #B3E5FC;
     font-family: 'Oswald', sans-serif;
-    color: #009688;
+    color: #0288D1;
     margin-top: 10px;
 }
 
@@ -57,24 +39,24 @@ background: #B6B6B6;
 }
 
 #hero-button1 {
-    background-color: #B2DFDB;
-    border: 1px solid #009688;
+    background-color: #B3E5FC;
+    border: 1px solid #B3E5FC;
     font-family: 'Oswald', sans-serif;
-    color: #009688;
+    color: #0288D1;
 }
 
 #hero-button2 {
     background-color: #FFFFFF;
-    border: 1px solid #009688;
+    border: 1px solid #B3E5FC;
     font-family: 'Oswald', sans-serif;
-    color: #009688;
+    color: #0288D1;
 }
 
 
 .hero-image {
     height: 630px;
     width: 100%;
-    opacity: 0.4;
+    opacity: 0.9;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -91,7 +73,7 @@ h2.hero-title {
   left: 0; 
   width: 100%; 
   text-align: center;
-  color: #00796B;
+  color: #FFFFFF;
   font-weight: bold;
   font-size: 48px;
 }
@@ -103,7 +85,7 @@ h3.hero-text {
   left: 0; 
   width: 100%; 
   text-align: center;
-  color: #00796B;
+  color: #FFFFFF;
   font-weight: bold;
 }
 
@@ -123,7 +105,7 @@ h3.hero-text {
     text-align: center;
     font-family: 'Oswald', sans-serif;
     font-size: 38px;
-    color: #009688;
+    color: #00BCD4;
     padding-top: 10px;
 }
 
@@ -133,10 +115,6 @@ h3.hero-text {
     padding-top: 40px;
 }
 
-/* team section */
-/*.github {
-    text-align: center;
-}*/
 
 .team-section {
     padding-top: 40px;
@@ -167,5 +145,5 @@ h3.hero-text {
 
 .footer-wrap {
     height: 300px;
-    background-color: #B2DFDB;
+    background-color: #B3E5FC;
 }
