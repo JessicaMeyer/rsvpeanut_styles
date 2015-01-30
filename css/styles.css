@@ -35,13 +35,12 @@ section#welcome {
 }
 
 .logo {
-  /*background-image:url("https://raw.githubusercontent.com/remember-me/rsvpeanut_styles/master/img/logo.png");*/
-  
+  background-image:url("https://raw.githubusercontent.com/remember-me/rsvpeanut_styles/master/img/rsvpeanut2.png");
   background-position: 0 -192px;
   background-repeat: no-repeat;
   overflow: hidden;
-  height: 48px;
-  width: 204px;
+  height: 100px;
+  width: 500px;
   float: left;
   display: block;
   border: 0;
