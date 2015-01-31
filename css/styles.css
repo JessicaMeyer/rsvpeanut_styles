@@ -21,7 +21,7 @@ section#hero {
   height: 700px;
   width: 100%;
   /*padding: 40px 20px 0;*/
-  background-image:url("https://raw.githubusercontent.com/remember-me/rsvpeanut_styles/master/img/sxsw.jpg");
+  background-image:url("https://raw.githubusercontent.com/remember-me/rsvpeanut_styles/master/img/sxsw3.gif");
   background-repeat: no-repeat;;
   background-size: cover;
   background-position: center;
@@ -226,7 +226,8 @@ section#hero {
 
 .footer-wrap {
     width: 100%;
-    background-color: #B3E5FC;
+    background-color: #448AFF;
+    height: 200px;
 }
 
 
