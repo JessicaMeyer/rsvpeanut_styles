@@ -146,11 +146,11 @@ section#hero {
 
 
 
-
-
-
 /* learn more section */
 
+.learn-section {
+    margin-top: 200px;
+}
 
 .example-image {
     padding-top: 40px;
@@ -162,7 +162,7 @@ section#hero {
     text-align: center;
     font-family: "Raleway", sans-serif;
     font-size: 38px;
-    color: #00BCD4;
+    color: #03A9F4;
     padding-top: 10px;
 }
 
@@ -189,12 +189,27 @@ section#hero {
  padding-top: 10px;
 }
 
+.teampic {
+
+border-radius: 999px;
+height: 200px;
+width: 200px;
+}
+
 
 /* footer */
 
-.copyright {
+.copyright-text {
     text-align: center;
-    color: #4d505b;
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    margin-top: 75px;
+}
+
+.groupgithub {
+
+ margin-left: 10px;
 }
 
 .footer-wrap {
@@ -204,34 +219,4 @@ section#hero {
 }
 
 
-/* MAP PAGE */
 
-/* create your plan title section */
-
-.create-title {
-  margin-top: 100px;
-  text-align: center;
-  font-family: "Raleway", sans-serif;
-  color: #00BCD4;
-}
-
-.create-text {
-  text-align: center;
-  font-family: 'Oswald', sans-serif;
-  margin-bottom: 0;
-}
-
-/* map section */
-
-.map  {
-  margin-top: 80px;
-}
-
-
-/* filter row above map */
-
-.filter-row {
-  width: 100%;
-  background-color: #D3D3D3;
-  height: 80px;
-}
