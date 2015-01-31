@@ -1,14 +1,9 @@
+@import "colors";
+
 /* INDEX PAGE */
 
-/*.dark-primary-color    { background: #1976D2; }
-.default-primary-color { background: #2196F3; }
-.light-primary-color   { background: #BBDEFB; }
-.text-primary-color    { color: #FFFFFF; }
-.accent-color          { background: #03A9F4; }
-.primary-text-color    { color: #212121; }
-.secondary-text-color  { color: #727272; }
-.divider-color         { border-color: #B6B6B6; }
-*/
+ /* font-family: 'Raleway', sans-serif; font-weight: 100-900;*/
+
 /* nav section and hero section */
 
 #main {
@@ -65,20 +60,51 @@ section#hero {
   color: red;
   text-decoration: none;
   -webkit-font-smoothing: antialiased;
-  font-family: "Oswald";
-
+  font-family: "Raleway", sans-serif;
   float: right;
-
 }
 
-/*.words-in-nav {
+
+.hero-words {
+  margin-top: 200px;
+}
+
+.hero-title {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  color: #FFFFFF;
+  font-size: 3em;
+}
+
+.hero-text {
+  text-align: center;
+  font-family: "Raleway", sans-serif; 
+  font-weight: 200;
+  font-size: 2.6875rem;
+  color: #FFFFFF;
+  margin-top: -10px;
+}
+
+.hero-buttons {
+  text-align: center;
   margin-top: 20px;
-  font-family: 'Oswald', sans-serif;
-  color: #0288d1;
-  padding-left: 20px;
 }
 
-.fixed-nav-bar {
+#hero-button1 {
+ background-color: #B3E5FC;
+ margin-right: 20px;
+ color: #0288D1;
+ border: 1px solid #FFFFFF;
+}
+
+#hero-button2 {
+ background-color: #D3D3D3;
+ color: #0288D1;
+ border: 1px solid #FFFFFF;
+}
+
+/*fixed-nav-bar {
   position: fixed;
   top: 0;
   left: 0;
@@ -87,10 +113,16 @@ section#hero {
   height: 100px;
 }
 
-.logo-section {
-    background: #FFFFFF;
-    height: 90px;
+*/
+/*.words-in-nav {
+  margin-top: 20px;
+  font-family: 'Oswald', sans-serif;
+  color: #0288d1;
+  padding-left: 20px;
 }
+
+
+
 
 
 .nav-buttons {
@@ -111,69 +143,10 @@ section#hero {
     margin-left: 17px;
 }
 
-.hero-buttons {
-  position: absolute; 
-  top: 370px; 
-  left: 0; 
-  width: 100%; 
-  text-align: center;
-  margin-top: 50px;
-}
-
-#hero-button1 {
-    background-color: #B3E5FC;
-    border: 1px solid #B3E5FC;
-    font-family: 'Oswald', sans-serif;
-    color: #0288D1;
-}
-
-#hero-button2 {
-    background-color: #FFFFFF;
-    border: 1px solid #B3E5FC;
-    font-family: 'Oswald', sans-serif;
-    color: #0288D1;
-}
 
 
-.hero-image {
-    height: 630px;
-    width: 100%;
-    opacity: 0.9;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: table-cell;
-    vertical-align: middle;
-    background-repeat: none;
-}
 
 
-.hero-title { 
-  position: absolute; 
-  top: 200px; 
-  left: 0; 
-  width: 100%; 
-  text-align: center;
-  color: #FFFFFF;
-  font-weight: bold;
-  font-size: 68px;
-}
-
-.hero-text { 
-  margin-top: 80px;
-  position: absolute; 
-  top: 270px; 
-  left: 0; 
-  width: 100%; 
-  text-align: center;
-  color: #FFFFFF;
-  font-weight: bold;
-  clear: both;
-  font-size: 20px;
-}
-
-*/
 
 
 /* learn more section */
@@ -187,7 +160,7 @@ section#hero {
 
 .section-title {
     text-align: center;
-    font-family: 'Oswald', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 38px;
     color: #00BCD4;
     padding-top: 10px;
@@ -238,8 +211,8 @@ section#hero {
 .create-title {
   margin-top: 100px;
   text-align: center;
-    font-family: 'Oswald', sans-serif;
-    color: #00BCD4;
+  font-family: "Raleway", sans-serif;
+  color: #00BCD4;
 }
 
 .create-text {
