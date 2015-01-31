@@ -57,7 +57,7 @@ section#hero {
   margin-top: 10px;
   font-size: 14px;
   line-height: 38px;
-  color: red;
+  /*color: red;*/
   text-decoration: none;
   -webkit-font-smoothing: antialiased;
   font-family: "Raleway", sans-serif;
@@ -172,29 +172,68 @@ section#hero {
     padding-top: 40px;
 }
 
-
-.team-section {
-    padding-top: 40px;
-    background-color: #d3d3d3;
-    height: 600px;
-}
-
-.team-pad {
-    margin-left: 120px;
-    padding-top: 40px;
-}
-
 .about-text {
  text-align: center;
  padding-top: 10px;
 }
 
-.teampic {
 
-border-radius: 999px;
-height: 200px;
-width: 200px;
+/* team section */
+
+.team-section {
+  text-align: center;
+/*  background-color: #d3d3d3;*/
+  background-color: #B3E5FC;
+  margin-top: 200px;
 }
+
+.team-section:before {
+  display: inline-block;
+  content: ' ';
+  vertical-align: middle;;
+  height: 100%;
+}
+
+#teamdisplay {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.teampic {
+  border-radius: 999px;
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+}
+
+#testimage {
+  background-color: #B3E5FC;
+  width: 200px;
+  height: 200px;
+}
+
+.person-name {
+  margin-top: 10px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  color: #0288D1;
+}
+
+.team-title {
+  margin-top: -15px;
+  margin-bottom: 8px;
+  color: #448AFF;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+
+.team-icons {
+  width: 34px;
+  height: 34px;
+}
+
+
+
 
 
 /* footer */
@@ -208,7 +247,6 @@ width: 200px;
 }
 
 .groupgithub {
-
  margin-left: 10px;
 }
 
@@ -217,6 +255,4 @@ width: 200px;
     background-color: #448AFF;
     height: 200px;
 }
-
-
 
