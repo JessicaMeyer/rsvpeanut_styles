@@ -16,14 +16,11 @@
   margin-bottom: -200px;
 }
 
-.welcome-header {
-  display: table;
-}
 
-section#welcome {
+section#hero {
   height: 700px;
   width: 100%;
-  padding: 40px 20px 0;
+  /*padding: 40px 20px 0;*/
   background-image:url("https://raw.githubusercontent.com/remember-me/rsvpeanut_styles/master/img/sxsw.jpg");
   background-repeat: no-repeat;;
   background-size: cover;
@@ -34,25 +31,35 @@ section#welcome {
 
 }
 
-.logo {
-  background-image:url("https://raw.githubusercontent.com/remember-me/rsvpeanut_styles/master/img/rsvpeanut2.png");
-  background-position: 0 -192px;
-  background-repeat: no-repeat;
-  overflow: hidden;
-  height: 100px;
-  width: 500px;
+.logo-section {
+  width: 100%;
+  background-color: #FFFFFF;
+  height: 54px;
+}
+
+.logo-image {
+/*  background-image:url("https://raw.githubusercontent.com/remember-me/rsvpeanut_styles/master/img/rsz_whitelogo.png");*/
+/*  background-position: 0 -192px;
+  background-repeat: no-repeat;*/*/
+  /*overflow: hidden;*/
+  height: 192px;
+  width: 165px;
   float: left;
-  display: block;
-  border: 0;
+  display: inline-block;
+  margin-left: 34px;
+  margin-top: 15px;
+/*  border: 0;
   text-indent: -999em;
   background-color: transparent;
   text-align: left;
   direction: ltr;
+    z-index: -1; position:relative*/
 }
 
-/*.nav-buttons {
-  display: block;
-  margin-left: 25px;
+.nav-buttons {
+  display: inline-block;
+  margin-right: 34px;
+  margin-top: 10px;
   font-size: 14px;
   line-height: 38px;
   color: red;
@@ -60,7 +67,9 @@ section#welcome {
   -webkit-font-smoothing: antialiased;
   font-family: "Oswald";
 
-}*/
+  float: right;
+
+}
 
 /*.words-in-nav {
   margin-top: 20px;
@@ -163,8 +172,8 @@ section#welcome {
   clear: both;
   font-size: 20px;
 }
-*/
 
+*/
 
 
 /* learn more section */

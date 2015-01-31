@@ -1680,8 +1680,8 @@ label.error {
   color: #f04124; }
 
 meta.foundation-mq-topbar {
-  font-family: "/only screen and (min-width:40.063em)/";
-  width: 40.063em; }
+  font-family: "/only screen and (min-width:64.063em)/";
+  width: 64.063em; }
 
 /* Wrapped around .top-bar to contain to grid width */
 .contain-to-grid {
@@ -1734,7 +1734,7 @@ meta.foundation-mq-topbar {
     padding-bottom: 0.4125rem;
     margin-bottom: 0;
     font-size: 0.75rem; }
-    @media only screen and (max-width: 40em) {
+    @media only screen and (max-width: 64.063em) {
       .top-bar .button, .top-bar button {
         position: relative;
         top: -1px; } }
