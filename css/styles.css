@@ -285,7 +285,7 @@ section#hero {
 
 #main-event {
   min-height: 100%;
-  margin-bottom: -350px;
+  margin-bottom: -500px;
 }
 
 /* CREATE YOUR PLAN AND TEXT SECTION */
@@ -310,12 +310,18 @@ section#hero {
 
 /* FILTER SECTION ABOVE MAP */
 
-.filter-section {
+.filter-row {
   width: 100%;
-  background-color: #B3E5FC;
+  background-color: #B6B6B6;
   height: 80px;
 }
 
+#submit-button {
+  background-color: #03A9F4;
+  font-family: "Raleway", sans-serif;
+  color: #FFFFFF;
+  height: 36px;
+}
 
 /* MAP SECTION */
 
