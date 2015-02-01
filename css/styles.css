@@ -325,10 +325,28 @@ section#hero {
 
 /* MAP SECTION */
 
-.map  {
+/*.map  {
   margin-top: 80px;
 }
+*/
 
+/*.filter-vertical-left {
+  width: 415px;
+}
+*/
+/*.filter-vertical-right {
+  width: 415px;
+  float: right;
+}*/
+
+.icon-bar.large-vertical.four-up {
+  background-color: #03A9F4;
+}
+
+.switch.radius {
+margin-top: 25px;
+float: right;
+}
 
 
 
