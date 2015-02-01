@@ -4,7 +4,7 @@
 
  /* font-family: 'Raleway', sans-serif; font-weight: 100-900;*/
 
-/* nav section and hero section */
+/* NAV | HERO SECTION */
 
 #main {
   min-height: 100%;
@@ -29,7 +29,7 @@ section#hero {
 .logo-section {
   width: 100%;
   background-color: #FFFFFF;
-  height: 54px;
+  height: 60px;
 }
 
 .logo-image {
@@ -146,7 +146,7 @@ section#hero {
 
 
 
-/* learn more section */
+/* LEARN MORE SECTION */
 
 .learn-section {
     margin-top: 200px;
@@ -168,17 +168,17 @@ section#hero {
 
 /* about section */
 
-.about-section {
-    padding-top: 40px;
+/*.about-section {
+    margin-top: 200px;
 }
-
+*/
 .about-text {
  text-align: center;
  padding-top: 10px;
 }
 
 
-/* team section */
+/* TEAM SECTION */
 
 .team-section {
   text-align: center;
@@ -234,10 +234,7 @@ section#hero {
 }
 
 
-
-
-
-/* footer */
+/* FOOTER */
 
 
 
@@ -262,4 +259,42 @@ section#hero {
     background-color: #448AFF;
     height: 200px;
 }
+
+
+/* MAP PAGE */
+
+
+#main-event {
+  min-height: 100%;
+  margin-bottom: -355px;
+}
+
+/* create your plan title section */
+
+.create-title {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  color: #00BCD4;
+}
+
+.create-text {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+/* map section */
+
+.map  {
+  margin-top: 80px;
+}
+
+
+/* filter row above map */
+
+.filter-row {
+  width: 100%;
+  background-color: #B3E5FC;
+  height: 80px;
+}
+
 
