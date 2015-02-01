@@ -4,7 +4,7 @@
 
  /* font-family: 'Raleway', sans-serif; font-weight: 100-900;*/
 
-/* NAV | HERO SECTION */
+/* NAV and HERO SECTION */
 
 #main {
   min-height: 100%;
@@ -23,7 +23,7 @@ section#hero {
   -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-
+  opacity: 0.9;
 }
 
 .logo-section {
@@ -146,12 +146,32 @@ section#hero {
 }
 
 
+/* SECTION TITLES and TEXT */
+
+
+.section-title {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  color: #03A9F4;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-top: 20px;
+}
+
+.section-text {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  color: #727272;
+}
 
 
 /* LEARN MORE SECTION */
 
 .learn-section {
     margin-top: 200px;
+    text-align: center;
 }
 
 .example-image {
@@ -160,23 +180,19 @@ section#hero {
     width: 723px;
 }
 
-.section-title {
-    text-align: center;
-    font-family: "Raleway", sans-serif;
-    font-size: 38px;
-    color: #03A9F4;
-    padding-top: 10px;
-}
 
-/* about section */
+/* ABOUT SECTION */
 
 /*.about-section {
     margin-top: 200px;
 }
 */
-.about-text {
- text-align: center;
+.step-text {
  padding-top: 10px;
+ text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  color: #727272;
 }
 
 
@@ -224,7 +240,8 @@ section#hero {
 .team-title {
   margin-top: -15px;
   margin-bottom: 8px;
-  color: #448AFF;
+  /*color: #448AFF;*/
+  color: #727272;
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
 }
@@ -268,35 +285,44 @@ section#hero {
 
 #main-event {
   min-height: 100%;
-  margin-bottom: -355px;
+  margin-bottom: -350px;
 }
 
-/* create your plan title section */
+/* CREATE YOUR PLAN AND TEXT SECTION */
+
 
 .create-title {
   text-align: center;
   font-family: "Raleway", sans-serif;
-  color: #00BCD4;
+  color: #03A9F4;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-top: 20px;
 }
 
 .create-text {
   text-align: center;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  color: #727272;
 }
 
-/* map section */
+/* FILTER SECTION ABOVE MAP */
+
+.filter-section {
+  width: 100%;
+  background-color: #B3E5FC;
+  height: 80px;
+}
+
+
+/* MAP SECTION */
 
 .map  {
   margin-top: 80px;
 }
 
 
-/* filter row above map */
-
-.filter-row {
-  width: 100%;
-  background-color: #B3E5FC;
-  height: 80px;
-}
 
 
