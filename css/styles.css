@@ -190,7 +190,7 @@ section#hero {
 .team-section:before {
   display: inline-block;
   content: ' ';
-  vertical-align: middle;;
+  vertical-align: middle;
   height: 100%;
 }
 
@@ -230,6 +230,7 @@ section#hero {
 .team-icons {
   width: 34px;
   height: 34px;
+  margin-bottom: 38px;
 }
 
 
@@ -238,19 +239,25 @@ section#hero {
 
 /* footer */
 
+
+
 .copyright-text {
-    text-align: center;
     color: #FFFFFF;
     font-family: 'Raleway', sans-serif;
     font-weight: 200;
-    margin-top: 75px;
+    line-height: 200px;
+    float: left;
 }
+
+
 
 .groupgithub {
- margin-left: 10px;
+    line-height: 200px;
+    display: inline-block;
+    float: right;
 }
 
-.footer-wrap {
+.footer-section {
     width: 100%;
     background-color: #448AFF;
     height: 200px;
