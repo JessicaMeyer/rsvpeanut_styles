@@ -324,17 +324,22 @@ section#hero {
 
 .filter-row {
   width: 100%;
-  background-color: #d8d8d8;
+  background-color: #03A9F4;
   height: 80px;
 }
 
-
-/*#submit-button {
+.panel {
   background-color: #03A9F4;
+  border: none;
+}
+
+#submit-button {
+  background-color: #B3E5FC;
   font-family: "Raleway", sans-serif;
-  color: #FFFFFF;
-  height: 36px;
-}*/
+  color: #727272;
+  font-weight: 600;
+  height: 37px;
+}
 
 /* MAP SECTION */
 
