@@ -282,10 +282,14 @@ section#hero {
 
 /* MAP PAGE */
 
-
-#main-event {
+/* turned this off for now to see how it looks on mobile */
+/*#main-event {
   min-height: 100%;
   margin-bottom: -500px;
+}*/
+
+#map-container {
+  margin-bottom: 50px;
 }
 
 /* CREATE YOUR PLAN AND TEXT SECTION */
@@ -310,18 +314,27 @@ section#hero {
 
 /* FILTER SECTION ABOVE MAP */
 
+#search-row {
+  list-style-type: none;
+}
+
+#search-panel {
+  height: 79px;
+}
+
 .filter-row {
   width: 100%;
-  background-color: #B6B6B6;
+  background-color: #d8d8d8;
   height: 80px;
 }
 
-#submit-button {
+
+/*#submit-button {
   background-color: #03A9F4;
   font-family: "Raleway", sans-serif;
   color: #FFFFFF;
   height: 36px;
-}
+}*/
 
 /* MAP SECTION */
 
