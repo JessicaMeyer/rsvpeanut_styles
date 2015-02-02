@@ -320,17 +320,18 @@ section#hero {
 
 #search-panel {
   height: 79px;
-  margin-left: 40px;
+  margin-left: 65px;
 }
 
 #switch-panel {
   height: 79px;
-  margin-left: 40px;
+  margin-left: 30px;
+  margin-top: 1px;
 }
 
 .calendar {
-  margin-left: 15px;
-  margin-right: -30px;
+  margin-left: 22px;
+  margin-right: -36px;
 }
 
 .filter-row {
@@ -355,15 +356,16 @@ section#hero {
 .switch-text {
   display: inline-block;
   font-family: "Raleway", sans-serif;
-  color: #727272;
   font-weight: 400;
   font-size: 15px;
   float: right;
   margin-top: -31px;
-  margin-right: 118px;
+  margin-right: 120px;
 }
 
-
+#switch-text2 {
+  color: #FFFFFF;
+}
 
 
 /* MAP SECTION */
