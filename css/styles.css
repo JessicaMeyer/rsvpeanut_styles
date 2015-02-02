@@ -290,6 +290,7 @@ section#hero {
 
 #map-container {
   margin-bottom: 50px;
+  margin-top: -20px;
 }
 
 /* CREATE YOUR PLAN AND TEXT SECTION */
@@ -320,12 +321,14 @@ section#hero {
 
 #search-panel {
   height: 79px;
-  margin-left: 65px;
+  /*margin-left: 65px;*/
+  margin-left: 20px;
 }
 
 #switch-panel {
   height: 79px;
-  margin-left: 30px;
+ /* margin-left: 30px;*/
+  margin-left: 35px;
   margin-top: 1px;
 }
 
@@ -370,15 +373,23 @@ section#hero {
 
 /* MAP SECTION */
 
-/*.map  {
-  margin-top: 80px;
+.map  {
+  margin-left: -3px;
+  width: 919px;
+  margin-bottom: 50px;
 }
-*/
+
 
 /*.filter-vertical-left {
-  width: 415px;
+  margin-top: -20px;
+  margin-left: -15px;
+}*/
+
+.filter-left {
+  margin-left: -15px;
+  height: 100px;
 }
-*/
+
 /*.filter-vertical-right {
   width: 415px;
   float: right;
@@ -386,12 +397,12 @@ section#hero {
 
 .icon-bar.large-vertical.four-up {
   background-color: #03A9F4;
-
+  /*height: 500px;*/
 }
 
 .switch.radius {
-margin-top: 25px;
-float: right;
+  margin-top: 25px;
+  float: right;
 }
 
 
