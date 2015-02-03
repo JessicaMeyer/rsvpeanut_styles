@@ -399,6 +399,12 @@ section#hero {
   height: 350px;
 }
 
+#drop3 {
+  width: 200px;
+  height: 350px;
+  overflow-y: scroll;
+}
+
 .headline-text {
  font-family: "Raleway", sans-serif;
  color: #FFFFFF;
