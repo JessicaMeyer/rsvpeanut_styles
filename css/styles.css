@@ -405,6 +405,11 @@ section#hero {
   overflow-y: scroll;
 }
 
+#drop4 {
+  width: 200px;
+  height: 350px;
+}
+
 .headline-text {
  font-family: "Raleway", sans-serif;
  color: #FFFFFF;

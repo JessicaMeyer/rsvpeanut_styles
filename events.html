@@ -149,10 +149,32 @@
         </form>
       </div> <!--end of drop out div-->
 
-      <a class="item" id="numero3">
+
+      <a data-dropdown="drop4" aria-controls="drop4" aria-expanded="false" class="item" id="numero3"> 
         <img src="img/smallfilter.png" >
-        <label>Filter</label>
+          <label>Filter</label>
       </a>
+        
+      <div id="drop4" data-dropdown-content class="f-dropdown content" aria-hidden="true" tabindex="-1">
+   
+      <p>Music</p>
+        <div class="switch round tiny">
+        <input id="exampleRadioSwitch2" type="radio" name="testGroup">
+        <label for="exampleRadioSwitch2"></label>
+      </div>
+     
+      <p>Food</p>
+        <div class="switch round tiny">
+        <input id="exampleRadioSwitch3" type="radio" name="testGroup">
+        <label for="exampleRadioSwitch3"></label>
+      </div>
+
+      <p>Meetups</p>
+        <div class="switch round tiny">
+        <input id="exampleRadioSwitch4" type="radio" name="testGroup">
+        <label for="exampleRadioSwitch4"></label>
+      </div>
+     </div>
 
       <!-- if click on this button, display joyride-->
       <a class="item">
