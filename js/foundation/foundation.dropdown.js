@@ -10,7 +10,7 @@
       active_class: 'open',
       disabled_class: 'disabled',
       mega_class: 'mega',
-      align: 'bottom',
+      align: 'right', // changed from bottom to right
       is_hover: false,
       hover_timeout: 150,
       opened: function(){},

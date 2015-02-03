@@ -370,7 +370,8 @@ section#hero {
 /* MAP SECTION */
 
 .map  {
-  margin-left: -3px;
+/*  margin-left: -3px;*/
+  margin-left: -257px;
   width: 919px;
   margin-bottom: 50px;
 }
@@ -391,5 +392,11 @@ section#hero {
   float: right;
 }
 
+/* filter button actions */
+
+#drop2 {
+  width: 200px;
+  height: 350px;
+}
 
 
