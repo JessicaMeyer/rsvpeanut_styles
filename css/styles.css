@@ -6,16 +6,15 @@
 
 /* NAV and HERO SECTION */
 
-#main {
+/*#main {
   min-height: 100%;
   margin-bottom: -200px;
 }
+*/
 
-
-section#hero {
+#hero-image {
   height: 700px;
   width: 100%;
-  /*padding: 40px 20px 0;*/
   background-image:url("https://raw.githubusercontent.com/remember-me/rsvpeanut_styles/master/img/sxsw3.gif");
   background-repeat: no-repeat;;
   background-size: cover;
@@ -24,7 +23,9 @@ section#hero {
     -moz-background-size: cover;
     -o-background-size: cover;
   opacity: 0.9;
+ /* margin-top: -190px;*/
 }
+
 
 .logo-section {
   width: 100%;
@@ -32,45 +33,44 @@ section#hero {
   height: 60px;
 }
 
-/* need to fix logo */
+.fixed-nav-bar {
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  height: 63px;
+  background-color: #FFFFFF;
+}
+
 
 .logo-image {
-/*  background-image:url("https://raw.githubusercontent.com/remember-me/rsvpeanut_styles/master/img/rsz_whitelogo.png");*/
-/*  background-position: 0 -192px;
-  background-repeat: no-repeat;*/*/
-  /*overflow: hidden;*/
-  height: 192px;
-  width: 165px;
+  height: 44px;
+  width: 150px;
   float: left;
   display: inline-block;
   margin-left: 34px;
   margin-top: 15px;
-/*  border: 0;
-  text-indent: -999em;
-  background-color: transparent;
-  text-align: left;
-  direction: ltr;
-    z-index: -1; position:relative*/
 }
-
 
 
 .nav-buttons {
-  display: inline-block;
-  margin-right: 34px;
-  margin-top: 10px;
-  font-size: 14px;
-  line-height: 38px;
-  /*color: red;*/
-  text-decoration: none;
-  -webkit-font-smoothing: antialiased;
-  font-family: "Raleway", sans-serif;
-  float: right;
+    float: right;
+    padding-right: 20px;
+    display: block;
+    position: relative;
+
 }
 
+.nav-buttons a {
+  color: #0288D1;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  line-height: 4.6;
+  padding: 2px;
+}
 
-.hero-words {
-  margin-top: 200px;
+#signinbutton {
+  border: 1px solid #0288D1;
+  padding: 8px;
 }
 
 .hero-title {
@@ -79,20 +79,22 @@ section#hero {
   font-weight: 800;
   color: #FFFFFF;
   font-size: 3em;
+  margin-top: 10px;
+  padding-top: 125px;
 }
 
 .hero-text {
   text-align: center;
   font-family: "Raleway", sans-serif; 
-  font-weight: 200;
+  font-weight: 300;
   font-size: 2.6875rem;
   color: #FFFFFF;
-  margin-top: -10px;
+  margin-top: 5px;
 }
 
 .hero-buttons {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 35px;
 }
 
 #hero-button1 {
@@ -108,40 +110,6 @@ section#hero {
  border: 1px solid #FFFFFF;
 }
 
-/*fixed-nav-bar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 9999;
-  width: 100%;
-  height: 100px;
-}
-
-*/
-/*.words-in-nav {
-  margin-top: 20px;
-  font-family: 'Oswald', sans-serif;
-  color: #0288d1;
-  padding-left: 20px;
-}
-
-.nav-buttons {
-    float: right;
-    padding-right: 20px;
-    display: block;
-    position: relative;
-
-}
-
-#signin-button {
-    background-color: white;
-    border: 1px solid #B3E5FC;
-    font-family: 'Oswald', sans-serif;
-    font-size: ;
-    color: #0288D1;
-    margin-top: 10px;
-    margin-left: 17px;
-}
 
 
 /* SECTION TITLES and TEXT */
@@ -155,6 +123,7 @@ section#hero {
   font-size: 2rem;
   line-height: 1.6;
   margin-top: 20px;
+  padding-bottom: 5px;
 }
 
 .section-text {
@@ -168,32 +137,52 @@ section#hero {
 /* LEARN MORE SECTION */
 
 .learn-section {
-    margin-top: 200px;
     text-align: center;
+    margin-bottom: -100px;
 }
 
+.section-title-learn {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  color: #03A9F4;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-top: 35px;
+}
+
+
 .example-image {
-    padding-top: 40px;
+    /*padding-top: 70px;*/
+    margin-top: 50px;
     height: 447px;
     width: 723px;
+
+   -webkit-box-shadow: 0px 0px 70px 10px rgba(179,229,252,1);
+-moz-box-shadow: 0px 0px 70px 10px rgba(179,229,252,1);
+box-shadow: 0px 0px 70px 10px rgba(179,229,252,1);
 }
 
 
 /* ABOUT SECTION */
 
-/*.about-section {
-    margin-top: 200px;
+.about-section {
+    margin-top: 60px;
+    /*margin-bottom: -60px;*/
 }
-*/
+
 
 .step-text {
- padding-top: 10px;
- text-align: center;
-  font-family: 'Oswald', sans-serif;
+  line-height: 4.6;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
   font-weight: 300;
   color: #727272;
 }
 
+#step-icon {
+  margin-top: 60px;
+}
 
 /* TEAM SECTION */
 

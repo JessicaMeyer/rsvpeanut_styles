@@ -19,75 +19,83 @@
 <body>
 
 
-<!--navigation and hero -->
+<!--navigation -->
 
-<div id="main">
 
-  <section id="hero">
+  <div class="logo-section">
 
-      <div class="logo-section">
+       <div class= "fixed-nav-bar">
+
         <img src="img/simpletext2.png" class="logo-image"/>
-    
+
         <nav class="nav-buttons">
-          <a href="#" class"events">Events</a>
-          <a href="#" class"events">Team</a>
-          <a href="#" class"events">Sign In</a>
+          <a href="#" class"event" id="event-link">Events</a>
+          <a href="#" class"event" id="event-link">Team</a>
+          <a href="#" class"event" id="signinbutton">Sign In</a>
         </nav>
       </div>
+
+    </div>
   
-      <div class="hero-words">
-        <h1 class="hero-title"> Find Things To Do Near You </h1>
-        <h3 class="hero-text"> View Events On a Map. Save Your Plan. Explore. </h3>
-          <div class="hero-buttons">
-            <a href="#" class="button radius" id="hero-button1"> Get Started </a>  
-            <a href="#" class="button radius" id="hero-button2"> Learn More </a>
-        </div>
-   </div>
-  </section>
-</div>
+  <!-- hero image -->
+
+  <div id="hero-image">
+      <div class="words">
+          <h1 class="hero-title"> Find Things To Do Near You </h1>
+          <h3 class="hero-text"> View Events On a Map. Save Your Plan. Explore. </h3>
+      </div>
+
+      <div class="hero-buttons">
+          <a href="#" class="button radius" id="hero-button1"> Get Started </a>  
+          <a href="#" class="button radius" id="hero-button2"> Learn More </a>
+      </div>
+  </div>
+
 
 
 <!-- learn more section -->
 
-<section class="learn-section">
+<div class="learn-section">
  <div class= "row">
   <div class="large-12 columns">
 
-  <p class="section-title"> see all of your events in one place </p>
+  <p class="section-title-learn"> see all of your events in one place </p>
   <p class="section-text"> Filter Events by Location, Date and Type. Save Your Plan and Explore. </p> 
 
-<center>
-<img src="img/strava-ex.jpg" class="example-image" />
-</center>
- </section>
+  <center>
+    <img src="img/mapboxphoto.png" class="example-image" />
+  </center>
  </div>
-</div>
+ </div>
+
 
 <!-- about section --> 
 
-<section class="about-section">
+<div class="about-section">
           
       <div class="row">
-        <div class="about-wrap">
-        <div class="large-4 columns">
-          <img src="http://placehold.it/400x300&text=[img]" />
-          <p class="step-text"> see all your events on a map </p>
+        <div class="large-12 columns">
+        
+        <div class="row">
+        <div class="large-4 columns text-center">
+          <img src="img/create.png" id="step-icon" />
+          <p class="step-text"> create a custom plan of things to do </p>
         </div>
         
-        <div class="large-4 columns">
-          <img src="http://placehold.it/400x300&text=[img]" />
+        <div class="large-4 columns text-center">
+          <img src="img/filter.png" id="step-icon" />
           <p class="step-text"> filter your events to create a custom map </p>
         </div>
 
-        <div class="large-4 columns">
-          <img src="http://placehold.it/400x300&text=[img]" />
-          <p class="step-text"> view your plan </p>
+        <div class="large-4 columns text-center">
+          <img src="img/map.png" id="step-icon" />
+          <p class="step-text"> see all your events on a map </p>
         </div>
       </div>
-      
-        </div>
-</section>
-
+    </div>
+  </div>
+</div>
+</div>
 
 
 <!--meet the team section-->
@@ -193,6 +201,17 @@
 
     <script>
       $(document).foundation();
+    </script>
+
+    <script>
+
+    $(document).ready(function(){
+    $(window).scroll(function(){
+        if($(window).scrollTop() > $(window).height()){
+            $(".logo-section").css({"background-color": "#d3d3d3"});   
+        }
+    })
+})
     </script>
 </body>
 </html>
