@@ -399,4 +399,40 @@ section#hero {
   height: 350px;
 }
 
+.headline-text {
+ font-family: "Raleway", sans-serif;
+ color: #FFFFFF;
+ font-weight: 600;
+}
+
+.headline-title {
+ font-family: "Raleway", sans-serif;
+ color: #FFFFFF;
+ font-weight: 300;
+}
+
+.button.joyride-next-tip {
+  background-color: #FFFFFF;
+  color: #03A9F4;
+}
+
+.button.joyride-prev-tip {
+  background-color: #FFFFFF;
+  color: #03A9F4;
+}
+
+.joyride-close-tip {
+  color: #FFFFFF !important;
+}
+
+/*.joyride-nub.top {
+  color: #03A9F4 !important;
+}*/
+
+/* edited in foundation css */
+/*.joyride-wrapper {
+  background-color: #448AFF;
+}
+*/
+
 
